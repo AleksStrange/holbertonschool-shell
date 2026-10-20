@@ -49,3 +49,13 @@ Ce dépôt contient une série de scripts bash réalisés dans le cadre du proje
 
 * **22-users_and_homes** : Affiche tous les utilisateurs ainsi que leur répertoire personnel, triés par utilisateur (le script doit se baser sur le fichier `/etc/passwd`).
 
+## Scripts Avancés (23-26)
+
+* **23-empty_casks** : Trouve tous les fichiers et répertoires vides dans le répertoire courant et ses sous-répertoires (inclus les fichiers cachés), en affichant uniquement leurs noms sans le chemin.
+
+* **24-gifs** : Liste tous les fichiers ordinaires ayant une extension ".gif" (en prenant en compte les fichiers cachés), triés selon la valeur de leurs octets sans distinction de casse, et affiche leurs noms sans l'extension.
+
+* **25-acrostic** : Permet de décoder des acrostiches basés sur la première lettre de chaque ligne en extrayant le premier caractère de chaque ligne et en fusionnant le tout en une seule ligne continue.
+
+* **26-the_biggest_fan** : Prend en entrée des journaux de serveur web au format TSV, ignore l'en-tête, et affiche les 11 hôtes ou adresses IP ayant effectué le plus grand nombre de requêtes, triés du plus actif au moins actif.
+
