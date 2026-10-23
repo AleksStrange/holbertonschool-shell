@@ -1,2 +1,2 @@
 #!/bin/bash
-nl | grep -E "[[:space:]]*[13579][[:space:]]"
+nl | grep -E "[[:space:]]*[13579][[:space:]]" | cut -f2
